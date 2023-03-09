@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Color-Code Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo-content">
+          <h1 class="logo">Random CC generator</h1>
+          <p class="logo-subs">HEX and RGBa</p>
+        </div>
+        <nav class="navigation-content">
+          <ul>
+            <li>
+              <a href="Hex.html">HEX</a>
+            </li>
+            <li>
+              <a class="current_page" href="Rgba.html">RGBa</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container-main">
+        <h2>
+          Random Color-Code: <span class="color-code"></span
+          ><span class="popup_text">Click to copy!</span>
+        </h2>
+
+        <button class="btn btn-hero" id="btn">Generate</button>
+      </div>
+    </main>
+    <script src="Rgba.js"></script>
+  </body>
+</html>
